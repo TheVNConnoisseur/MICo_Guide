@@ -1,0 +1,228 @@
+Name,Value,Start,Size,Type,Color
+Game Identifier[4],,0h,4h,uchar,Fg: Bg:0x00BFBF
+Game system mode,2,4h,4h,uint,Fg: Bg:0x00FFFF
+Exclusive fullscreen mode,0,8h,1h,uchar,Fg: Bg:0x66B3FF
+Game Locale is English,0,9h,1h,uchar,Fg: Bg:0xBF0060
+Game title[260],二美姫のマリオネット〜高貴なる姉妹の尊厳崩壊〜,Ah,104h,char,Fg: Bg:0x3333FF
+DAT_Key[260],二美姫のマリオネット〜高貴なる姉妹の尊厳崩壊〜,10Eh,104h,char,Fg: Bg:0x7F7F00
+Window width,1280,212h,2h,ushort,Fg: Bg:0x00BFBF
+Window height,720,214h,2h,ushort,Fg: Bg:0xBF6000
+Bytes to skip,0,216h,2h,ushort,Fg: Bg:0x7F4000
+Flag_DI_Amount,1100,218h,4h,int,Fg: Bg:0x33FF33
+Flag_DG_Amount,3200,21Ch,4h,int,Fg: Bg:0xBF0060
+Flag_DT_Amount,200,220h,4h,int,Fg: Bg:0x007F7F
+Flag_SI_Amount,20,224h,4h,int,Fg: Bg:0x00FFFF
+Flag_SG_Amount,0,228h,4h,int,Fg: Bg:0xFF0000
+Flag_ST_Amount,50,22Ch,4h,int,Fg: Bg:0x00FF00
+obj_Amount,610,230h,4h,int,Fg: Bg:0x00407F
+MSK_Amount,256,234h,4h,int,Fg: Bg:0x7F0040
+CGB_Amount,256,238h,4h,int,Fg: Bg:0x33FF99
+Button_Amount,256,23Ch,4h,int,Fg: Bg:0x407F00
+Box_Amount,20,240h,4h,int,Fg: Bg:0xFF00FF
+MessageLog_Size,15000,244h,4h,int,Fg: Bg:0x407F00
+MsgWndFrameReColor_objIDToModify,250,248h,4h,int,Fg: Bg:0x0080FF
+obj_MaxIDatInit,350,24Ch,4h,int,Fg: Bg:0x33FF99
+data06_Folder_Name[260],,250h,104h,uchar,Fg: Bg:0x8000FF
+data00_Folder_Name[260],,354h,104h,uchar,Fg: Bg:0x0080FF
+data02_Folder_Name[260],,458h,104h,uchar,Fg: Bg:0x0000FF
+data05_Folder_Name[260],,55Ch,104h,uchar,Fg: Bg:0xBF0000
+data03_Folder_Name[260],,660h,104h,uchar,Fg: Bg:0xFFFF33
+data04_Folder_Name[260],,764h,104h,uchar,Fg: Bg:0xFFFF33
+data01_Folder_Name[260],,868h,104h,uchar,Fg: Bg:0x66B3FF
+Unused_data_Folder_Name[260],,96Ch,104h,uchar,Fg: Bg:0x33FF33
+SaveDataFolder_Name[260],,A70h,104h,uchar,Fg: Bg:0xFF3399
+FlagOdn_File[260],,B74h,104h,uchar,Fg: Bg:0x0080FF
+CloseGameWithMessageBox,2,C78h,1h,uchar,Fg: Bg:0x3333FF
+Byte to skip,0,C79h,1h,uchar,Fg: Bg:0xFFFFFF
+CloseGame_SeenNumber,10,C7Ah,2h,ushort,Fg: Bg:0xFFFF33
+CloseGame_JumpLabel[260],Label_ゲーム終了,C7Ch,104h,char,Fg: Bg:0x00FF00
+SystemMenuFullscreenMode_SeenNumber,10,D80h,4h,int,Fg: Bg:0x7F007F
+SystemMenuFullscreenMode_JumpLabel[260],Label_SYSMENU_フルスクリーンモード,D84h,104h,char,Fg: Bg:0xFF0000
+SystemMenuWindowMode_SeenNumber,10,E88h,4h,int,Fg: Bg:0x99FF33
+SystemMenuWindowMode_JumpLabel[260],Label_SYSMENU_ウインドウモード,E8Ch,104h,char,Fg: Bg:0xFF66B3
+Font_Name[260],ＭＳ ゴシック,F90h,104h,char,Fg: Bg:0xFFFF33
+Font[0],,1094h,0h,int,Fg: Bg:0xFF0000
+Font[0],,1098h,0h,int,Fg: Bg:0x00FF00
+Font[0],,109Ch,0h,int,Fg: Bg:0x407F00
+Font[0],,10A0h,0h,int,Fg: Bg:0x969696
+Font[0],,10A4h,0h,int,Fg: Bg:0x969696
+Font[0],,10A8h,0h,int,Fg: Bg:0x969696
+Font[0],,10ACh,0h,int,Fg: Bg:0x969696
+Font[1][7],,10B0h,1Ch,int,Fg: Bg:0x66FFFF
+Font[2][7],,10CCh,1Ch,int,Fg: Bg:0x0000FF
+Font[3][7],,10E8h,1Ch,int,Fg: Bg:0x00203F
+Font[4][7],,1104h,1Ch,int,Fg: Bg:0x003F20
+Font[5][7],,1120h,1Ch,int,Fg: Bg:0x6666FF
+Font[6][7],,113Ch,1Ch,int,Fg: Bg:0x8000FF
+Font[7][7],,1158h,1Ch,int,Fg: Bg:0x60BF00
+Font[8][7],,1174h,1Ch,int,Fg: Bg:0x0080FF
+Font[9][7],,1190h,1Ch,int,Fg: Bg:0xFFB366
+Font[10][7],,11ACh,1Ch,int,Fg: Bg:0x00407F
+Font[11][7],,11C8h,1Ch,int,Fg: Bg:0xFF8000
+Font[12][7],,11E4h,1Ch,int,Fg: Bg:0x0060BF
+Font[13][7],,1200h,1Ch,int,Fg: Bg:0x33FF33
+Font[14][7],,121Ch,1Ch,int,Fg: Bg:0x00FFFF
+Font[15][7],,1238h,1Ch,int,Fg: Bg:0xFF0000
+Font[16][7],,1254h,1Ch,int,Fg: Bg:0x00003F
+Font[17][7],,1270h,1Ch,int,Fg: Bg:0x0080FF
+Font[18][7],,128Ch,1Ch,int,Fg: Bg:0xBF0060
+Font[19][7],,12A8h,1Ch,int,Fg: Bg:0x007F7F
+Font[20][7],,12C4h,1Ch,int,Fg: Bg:0x6000BF
+Font[21][7],,12E0h,1Ch,int,Fg: Bg:0x003F3F
+Font[22][7],,12FCh,1Ch,int,Fg: Bg:0xFFFF33
+Font[23][7],,1318h,1Ch,int,Fg: Bg:0x7F0000
+Font[24][7],,1334h,1Ch,int,Fg: Bg:0x00FF00
+Font[25][7],,1350h,1Ch,int,Fg: Bg:0xFF66B3
+Font[26][7],,136Ch,1Ch,int,Fg: Bg:0x00BFBF
+Font[27][7],,1388h,1Ch,int,Fg: Bg:0x00003F
+Font[28][7],,13A4h,1Ch,int,Fg: Bg:0x9933FF
+Font[29][7],,13C0h,1Ch,int,Fg: Bg:0x00FFFF
+Font[30][7],,13DCh,1Ch,int,Fg: Bg:0xBF6000
+Font[31][7],,13F8h,1Ch,int,Fg: Bg:0x818181
+Font[32][7],,1414h,1Ch,int,Fg: Bg:0x00BF60
+Font[33][7],,1430h,1Ch,int,Fg: Bg:0x00407F
+Font[34][7],,144Ch,1Ch,int,Fg: Bg:0x3F0020
+Font[35][7],,1468h,1Ch,int,Fg: Bg:0x00003F
+Font[36][7],,1484h,1Ch,int,Fg: Bg:0xFF66B3
+Font[37][7],,14A0h,1Ch,int,Fg: Bg:0x0000FF
+Font[38][7],,14BCh,1Ch,int,Fg: Bg:0x007F00
+Font[39][7],,14D8h,1Ch,int,Fg: Bg:0x00003F
+Font[40][7],,14F4h,1Ch,int,Fg: Bg:0x6666FF
+Font[41][7],,1510h,1Ch,int,Fg: Bg:0x00FF00
+Font[42][7],,152Ch,1Ch,int,Fg: Bg:0xBF0060
+Font[43][7],,1548h,1Ch,int,Fg: Bg:0x00BFBF
+Font[44][7],,1564h,1Ch,int,Fg: Bg:0x7F007F
+Font[45][7],,1580h,1Ch,int,Fg: Bg:0x3333FF
+Font[46][7],,159Ch,1Ch,int,Fg: Bg:0x7F4000
+Font[47][7],,15B8h,1Ch,int,Fg: Bg:0x0000BF
+Font[48][7],,15D4h,1Ch,int,Fg: Bg:0xBF00BF
+Font[49][7],,15F0h,1Ch,int,Fg: Bg:0xCC99FF
+DialogBox_CharacterName_CustomColor[0]_Name[50],,160Ch,32h,char,Fg: Bg:0x0080FF
+DialogBox_CharacterName_CustomColor[1]_Name[50],,163Eh,32h,char,Fg: Bg:0x0000FF
+DialogBox_CharacterName_CustomColor[2 to 49]_Name[2400],,1670h,960h,char,Fg: Bg:0x33FF99
+DialogBox_CharacterName_CustomColor[0]_RGB565[3],,1FD0h,3h,char,Fg: Bg:0x0000FF
+DialogBox_CharacterName_CustomColor[1]_RGB565[3],,1FD3h,3h,char,Fg: Bg:0x00FFFF
+DialogBox_CharacterName_CustomColor[2 to 49]_RGB565[36],,1FD6h,90h,int,Fg: Bg:0xFF00FF
+Font_Color_CharacterName[3],,2066h,3h,uchar,Fg: Bg:0xCC99FF
+Font_Color_EnableCustomColor,1,2069h,1h,char,Fg: Bg:0xBF0060
+Font_Color_DialogText[3],,206Ah,3h,uchar,Fg: Bg:0x00007F
+BackgroundFill_Color[3],,206Dh,3h,char,Fg: Bg:0x969696
+BackgroundFill_Opacity,200,2070h,1h,uchar,Fg: Bg:0x0080FF
+Unknown13,1,2071h,1h,uchar,Fg: Bg:0xCC99FF
+Unknown14,1,2072h,1h,uchar,Fg: Bg:0xFFFF00
+Byte to skip,0,2073h,1h,uchar,Fg: Bg:0x000000
+Unknown15,10,2074h,2h,ushort,Fg: Bg:0xBF00BF
+DialogBox_Message_Text_FontID,0,2076h,2h,short,Fg: Bg:0x0000FF
+DialogBox_Surface_RectID,0,2078h,2h,ushort,Fg: Bg:0xBF0060
+DialogBox_Image_RectID,1,207Ah,2h,short,Fg: Bg:0x007F7F
+DialogBox_Message_Surface_RectID,2,207Ch,2h,short,Fg: Bg:0x33FFFF
+DialogBox_Character_Surface_RectID,3,207Eh,2h,short,Fg: Bg:0xBFBF00
+DialogBox_Message_Text_RectID,4,2080h,2h,short,Fg: Bg:0xBF00BF
+DialogBox_Character_Text_RectID,5,2082h,2h,short,Fg: Bg:0x66FF66
+ChoiceBox_FirstObjectID,75,2084h,2h,ushort,Fg: Bg:0x0000FF
+ChoiceBox_LastObjectID,99,2086h,2h,ushort,Fg: Bg:0x33FFFF
+AudioSlots_Amount,25,2088h,2h,ushort,Fg: Bg:0x00FF80
+AudioSlots_BGM,0,208Ah,2h,ushort,Fg: Bg:0xFF8000
+AudioSlots_Voice,1,208Ch,2h,ushort,Fg: Bg:0x3333FF
+AudioSlots_Unknown,50,208Eh,1h,uchar,Fg: Bg:0x00FFFF
+SDT_Key_ShufflerByte,0,208Fh,1h,uchar,Fg: Bg:0xBF0060
+SDT_Key[260],�ﾄﾒsA,2090h,104h,char,Fg: Bg:0x7F7F00
+DialogBox_Message_BackgroundFill_Enabled,1,2194h,1h,char,Fg: Bg:0xBF00BF
+Byte to skip,0,2195h,1h,uchar,Fg: Bg:0x003F3F
+DialogBox_Message_Background_XOrigin,128,2196h,2h,short,Fg: Bg:0x3399FF
+DialogBox_Message_Background_YOrigin,546,2198h,2h,short,Fg: Bg:0x33FF99
+DialogBox_Message_Text_XOrigin,308,219Ah,2h,short,Fg: Bg:0x3333FF
+DialogBox_Message_Text_YOrigin,587,219Ch,2h,short,Fg: Bg:0xFFFF00
+DialogBox_Message_Text_Width,722,219Eh,2h,ushort,Fg: Bg:0xFF00FF
+DialogBox_Message_Text_Height,110,21A0h,2h,ushort,Fg: Bg:0x407F00
+DialogBox_Message_BackgroundFill_XOrigin,128,21A2h,2h,short,Fg: Bg:0x0060BF
+DialogBox_Message_BackgroundFill_YOrigin,556,21A4h,2h,short,Fg: Bg:0x0000FF
+DialogBox_Message_BackgroundFill_Width,0,21A6h,2h,ushort,Fg: Bg:0xFFFF00
+DialogBox_Message_BackgroundFill_Height,0,21A8h,2h,ushort,Fg: Bg:0x66FFFF
+DialogBox_Message_Background_ImageFile[260],null.mg2,21AAh,104h,char,Fg: Bg:0x99FF33
+DialogBox_Character_Text_FontID,0,22AEh,2h,short,Fg: Bg:0x3399FF
+DialogBox_Character_BackgroundFill_Enabled,0,22B0h,1h,char,Fg: Bg:0x00BF00
+Byte to skip,0,22B1h,1h,char,Fg: Bg:0xFFFFFF
+DialogBox_Character_Background_XOrigin,128,22B2h,2h,short,Fg: Bg:0x9999FF
+DialogBox_Character_Background_YOrigin,546,22B4h,2h,short,Fg: Bg:0x6000BF
+DialogBox_Character_Text_XOrigin,283,22B6h,2h,short,Fg: Bg:0x3F2000
+DialogBox_Character_Text_YOrigin,562,22B8h,2h,short,Fg: Bg:0x0000FF
+DialogBox_Character_Text_Width,600,22BAh,2h,ushort,Fg: Bg:0x0080FF
+DialogBox_Character_Text_Height,35,22BCh,2h,ushort,Fg: Bg:0xFFFFFF
+DialogBox_Character_BackgroundFill_XOrigin,0,22BEh,2h,short,Fg: Bg:0x00BF60
+DialogBox_Character_BackgroundFill_YOrigin,0,22C0h,2h,short,Fg: Bg:0x3333FF
+DialogBox_Character_BackgroundFill_Width,0,22C2h,2h,ushort,Fg: Bg:0x33FF33
+DialogBox_Character_BackgroundFill_Height,0,22C4h,2h,ushort,Fg: Bg:0x00003F
+DialogBox_Character_Unknown1,600,22C6h,2h,ushort,Fg: Bg:0x3F3F00
+DialogBox_Character_Unknown2,0,22C8h,2h,ushort,Fg: Bg:0x0000FF
+DialogBox_Character_Unknown3,0,22CAh,1h,uchar,Fg: Bg:0x3399FF
+DialogBox_Character_Background_ImageFile[261],メッセージウインドウ01.mg2,22CBh,105h,char,Fg: Bg:0x00FFFF
+DialogBox_Unused1,0,23D0h,4h,int,Fg: Bg:0x00BF00
+DialogBox_Unused2,0,23D4h,4h,int,Fg: Bg:0xFF9933
+Bytes to skip[8],,23D8h,8h,char,Fg: Bg:0xFFFF99
+DialogBox_Unused3,0,23E0h,4h,int,Fg: Bg:0x9933FF
+DialogBox_Unused4,0,23E4h,4h,int,Fg: Bg:0xBF0000
+DialogBox_Unused5,0,23E8h,4h,int,Fg: Bg:0x0000BF
+DialogBox_Unused6,0,23ECh,4h,int,Fg: Bg:0x33FFFF
+Bytes to skip[40],,23F0h,28h,char,Fg: Bg:0xB3FF66
+DialogBox_Unused7,0,2418h,4h,int,Fg: Bg:0x0000BF
+DialogBox_Unused8,0,241Ch,4h,int,Fg: Bg:0x99CCFF
+DialogBox_Unused9,0,2428h,4h,int,Fg: Bg:0xFFFF66
+DialogBox_Unused10,0,242Ch,4h,int,Fg: Bg:0x007F7F
+DialogBox_Unused11,0,2430h,4h,int,Fg: Bg:0x00BF00
+DialogBox_Unused12,0,2434h,4h,int,Fg: Bg:0x7F0000
+Bytes to skip (until next section of file)[13644],,2438h,354Ch,char,Fg: Bg:0xC0C0C0
+ChoiceBox_Text_Alignment,4,5984h,1h,char,Fg: Bg:0x66FFFF
+Byte to skip,0,5985h,1h,char,Fg: Bg:0xFFFFFF
+ChoiceBox_Text_FontID,0,5986h,2h,ushort,Fg: Bg:0x0060BF
+ChoiceBox_Text_Color[3],,5988h,3h,uchar,Fg: Bg:0xFF99FF
+ChoiceBox_BackgroundFill_Enable,0,598Bh,1h,char,Fg: Bg:0xFFFF33
+ChoiceBox_Text_XOrigin,135,598Ch,2h,short,Fg: Bg:0x0000FF
+ChoiceBox_Text_YOrigin,11,598Eh,2h,short,Fg: Bg:0x00FFFF
+ChoiceBox_Text_Width,600,5990h,2h,short,Fg: Bg:0x66FF66
+ChoiceBox_Text_Height,47,5992h,2h,short,Fg: Bg:0xBF0060
+ChoiceBox_Unknown1,0,5994h,2h,short,Fg: Bg:0xFF9999
+ChoiceBox_Unknown2,0,5996h,2h,short,Fg: Bg:0x00407F
+ChoiceBox_Unknown3,660,5998h,2h,short,Fg: Bg:0xFF33FF
+ChoiceBox_BackgroundFill_Height,47,599Ah,2h,short,Fg: Bg:0x007F7F
+ChoiceBox_BackgroundFill_Width,660,599Ch,2h,short,Fg: Bg:0x007F00
+ChoiceBox_Unknown6,47,599Eh,2h,short,Fg: Bg:0xFF00FF
+ChoiceBox_Image_YMarginForNextChoiceBox,65,59A0h,2h,short,Fg: Bg:0x0060BF
+ChoiceBox_Image_XMargin,310,59A2h,2h,short,Fg: Bg:0x99FFFF
+ChoiceBox_Unknown9,302,59A4h,2h,short,Fg: Bg:0x00BF00
+ChoiceBox_Image_NotChosen[260],選択肢枠(基本).mg2,59A6h,104h,char,Fg: Bg:0xFF3333
+ChoiceBox_Image_NotChosen_MouseHover[260],選択肢枠(ロール).mg2,5AAAh,104h,char,Fg: Bg:0x00FF80
+ChoiceBox_Image_AlreadyChosen[260],選択肢枠(既読).mg2,5BAEh,104h,char,Fg: Bg:0x0000BF
+ChoiceBox_Image_AlreadyChosen_MouseHover[262],選択肢枠(ロール).mg2,5CB2h,106h,char,Fg: Bg:0x0080FF
+ChoiceBox_Unused1,0,5DB8h,4h,int,Fg: Bg:0xBF0000
+ChoiceBox_Unused2,0,5DBCh,4h,int,Fg: Bg:0x00BF60
+ChoiceBox_Unused3,0,5DC0h,4h,int,Fg: Bg:0x7F0000
+Unused bytes[4],,5DC4h,4h,char,Fg: Bg:0xFFFFFF
+ChoiceBox_Unused4,0,5DC8h,4h,int,Fg: Bg:0x00FFFF
+ChoiceBox_Unused5,0,5DCCh,4h,int,Fg: Bg:0x0000BF
+ChoiceBox_Unused6,0,5DD0h,4h,int,Fg: Bg:0x00FF80
+ChoiceBox_Unused7,0,5DD4h,4h,int,Fg: Bg:0x0060BF
+Unused bytes[40],,5DD8h,28h,char,Fg: Bg:0x6C6C6C
+ChoiceBox_Unused8,0,5E00h,4h,int,Fg: Bg:0x3399FF
+ChoiceBox_Unused9,0,5E04h,4h,int,Fg: Bg:0x0000BF
+ChoiceBox_Unused10,0,5E08h,4h,int,Fg: Bg:0x007F00
+Unused bytes[4],,5E0Ch,4h,char,Fg: Bg:0x2D2D2D
+ChoiceBox_Unused11,0,5E10h,4h,int,Fg: Bg:0x00FF80
+ChoiceBox_Unused12,0,5E14h,4h,int,Fg: Bg:0xBF00BF
+ChoiceBox_Unused13,0,5E18h,4h,int,Fg: Bg:0x6000BF
+ChoiceBox_Unused14,0,5E1Ch,4h,int,Fg: Bg:0xBF0000
+Unused bytes[40],,5E20h,28h,char,Fg: Bg:0xCCCCFF
+ChoiceBox_Unused15,0,5E48h,4h,int,Fg: Bg:0x0060BF
+ChoiceBox_Unused16,0,5E4Ch,4h,int,Fg: Bg:0x007F7F
+Bytes to skip[16],,5E50h,10h,char,Fg: Bg:0x818181
+ChoiceBox_Unused17,0,5E60h,4h,int,Fg: Bg:0x33FF33
+ChoiceBox_Unused18,0,5E64h,4h,int,Fg: Bg:0xFF00FF
+ChoiceBox_Unused19,0,5E68h,4h,int,Fg: Bg:0x00BFBF
+Unused bytes[40],,5E6Ch,28h,char,Fg: Bg:0xC0C0C0
+ChoiceBox_Unused20,0,5E94h,4h,int,Fg: Bg:0x00BF60
+ChoiceBox_Unused21,0,5E98h,4h,int,Fg: Bg:0xB366FF
+Unused bytes[12],,5E9Ch,Ch,char,Fg: Bg:0xD5D5D5
+ChoiceBox_Unused22,0,5EA8h,4h,int,Fg: Bg:0x0080FF
+ChoiceBox_Unused23,0,5EACh,4h,int,Fg: Bg:0x0000BF
+ChoiceBox_Unused24,0,5EB0h,4h,int,Fg: Bg:0x00BFBF
+Unused bytes[25952],,5EB4h,6560h,char,Fg: Bg:0x969696
