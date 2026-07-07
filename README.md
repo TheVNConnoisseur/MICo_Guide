@@ -6,18 +6,21 @@ Repository with information related to the **MICo engine**, used in [Valkyria](h
 
 ## Things done
 
-- [ ] Debug mode
-- [X] [Differences between versions](https://github.com/TheVNConnoisseur/MICo_Guide/wiki/Versions-of-the-engine)
+- [X] [Debug mode](/TheVNConnoisseur/MICo_Guide/wiki/Debug-mode)
+- [X] [Differences between versions](/TheVNConnoisseur/MICo_Guide/wiki/Versions-of-the-engine)
 - [ ] Encryption algorithms
 - [ ] Engine opcodes
 - [ ] Image files
   - [ ] Standard files
   - [ ] Mask files
 - [ ] Script files
-- [X] [system.dat file](https://github.com/TheVNConnoisseur/MICo_Guide/wiki/system.dat)
+- [X] [system.dat file](/TheVNConnoisseur/MICo_Guide/wiki/system.dat)
 
 ## Files included
 
-- **system.dat analysis**:
+- **Debug mode analysis:**
+  - `MICo_Debug.ini` sample file, generated for [Nihiki no Marionette -Kouki Naru Shimai no Songen Houkai-](https://vndb.org/v55358)
+
+- **system.dat analysis:**
   - 010 Editor .csv file of bookmarks
-  - IDA decompilation of the game's executable of [Nihiki no Marionette ~Kouki Naru Shimai no Songen Houkai~](https://vndb.org/v55358)
+  - IDA decompilation of the game's executable of [Nihiki no Marionette -Kouki Naru Shimai no Songen Houkai-](https://vndb.org/v55358)
