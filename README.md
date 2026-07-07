@@ -18,6 +18,9 @@ Repository with information related to the **MICo engine**, used in [Valkyria](h
 
 ## Files included
 
-- **system.dat analysis**:
+- **Debug mode analysis:**
+  - `MICo_Debug.ini` sample file, generated for [Nihiki no Marionette -Kouki Naru Shimai no Songen Houkai-](https://vndb.org/v55358)
+
+- **system.dat analysis:**
   - 010 Editor .csv file of bookmarks
-  - IDA decompilation of the game's executable of [Nihiki no Marionette ~Kouki Naru Shimai no Songen Houkai~](https://vndb.org/v55358)
+  - IDA decompilation of the game's executable of [Nihiki no Marionette -Kouki Naru Shimai no Songen Houkai-](https://vndb.org/v55358)
