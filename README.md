@@ -6,15 +6,15 @@ Repository with information related to the **MICo engine**, used in [Valkyria](h
 
 ## Things done
 
-- [ ] Debug mode
-- [X] [Differences between versions](https://github.com/TheVNConnoisseur/MICo_Guide/wiki/Versions-of-the-engine)
+- [X] [Debug mode](/TheVNConnoisseur/MICo_Guide/wiki/Debug-mode)
+- [X] [Differences between versions](/TheVNConnoisseur/MICo_Guide/wiki/Versions-of-the-engine)
 - [ ] Encryption algorithms
 - [ ] Engine opcodes
 - [ ] Image files
   - [ ] Standard files
   - [ ] Mask files
 - [ ] Script files
-- [X] [system.dat file](https://github.com/TheVNConnoisseur/MICo_Guide/wiki/system.dat)
+- [X] [system.dat file](/TheVNConnoisseur/MICo_Guide/wiki/system.dat)
 
 ## Files included
 
