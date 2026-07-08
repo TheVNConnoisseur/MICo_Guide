@@ -2,19 +2,19 @@
 
 ![](https://github.com/user-attachments/assets/4e9cdfd5-7d4c-4ccb-81f3-8d9f03f199b8)
 
-Repository with information related to the **MICo engine**, used in [Valkyria](https://vndb.org/p765) visual novels. Everything is stored inside the wiki of this repository, and any file generated from the investigation done, will be included inside the main repository instead.
+Repository with information related to the **MICo engine**, used in [Valkyria](https://vndb.org/p765) visual novels. Everything is stored inside the [wiki](https://github.com/TheVNConnoisseur/MICo_Guide/wiki) of this repository, and any file generated from the investigation done, will be included inside the main repository instead.
 
 ## Things done
 
-- [X] [Debug mode](/TheVNConnoisseur/MICo_Guide/wiki/Debug-mode)
-- [X] [Differences between versions](/TheVNConnoisseur/MICo_Guide/wiki/Versions-of-the-engine)
-- [ ] Encryption algorithms
+- [X] Debug mode
+- [X] Differences between versions
+- [ ] .DAT files
 - [ ] Engine opcodes
 - [ ] Image files
   - [ ] Standard files
   - [ ] Mask files
 - [ ] Script files
-- [X] [system.dat file](/TheVNConnoisseur/MICo_Guide/wiki/system.dat)
+- [X] system.dat file
 
 ## Files included
 
