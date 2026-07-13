@@ -12,7 +12,7 @@ Repository with information related to the **MICo engine**, used in [Valkyria](h
 - [ ] Image files
   - [ ] Standard files
   - [ ] Mask files
-- [ ] Initialization file
+- [X] Initialization file
 - [ ] Script files
 
 ## Files included
