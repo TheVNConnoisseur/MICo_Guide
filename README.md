@@ -6,15 +6,14 @@ Repository with information related to the **MICo engine**, used in [Valkyria](h
 
 ## Things done
 
+- [ ] Container files
 - [X] Debug mode
 - [X] Differences between versions
-- [ ] .DAT files
-- [ ] Engine opcodes
 - [ ] Image files
   - [ ] Standard files
   - [ ] Mask files
+- [ ] Initialization file
 - [ ] Script files
-- [X] system.dat file
 
 ## Files included
 
