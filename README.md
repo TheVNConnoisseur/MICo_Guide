@@ -12,14 +12,15 @@ Repository with information related to the **MICo engine**, used in [Valkyria](h
 - [ ] Image files
   - [ ] Standard files
   - [ ] Mask files
-- [X] Initialization file
+- [X] Initialization files
 - [ ] Script files
 
 ## Files included
 
-- **Debug mode analysis:**
-  - `MICo_Debug.ini` sample file, generated for [Nihiki no Marionette -Kouki Naru Shimai no Songen Houkai-](https://vndb.org/v55358)
+- [Princess Knight☆Catue -Ochita Ryuuki Hime-](https://vndb.org/v5067)
+  - IDA decompilation of the game's executable
 
-- **system.dat analysis:**
-  - 010 Editor .csv file of bookmarks
-  - IDA decompilation of the game's executable of [Nihiki no Marionette -Kouki Naru Shimai no Songen Houkai-](https://vndb.org/v55358)
+- [Nihiki no Marionette -Kouki Naru Shimai no Songen Houkai-](https://vndb.org/v55358)
+  - 010 Editor .csv file of bookmarks of system.dat file
+  - IDA decompilation of the game's executable
+  - `MICo_Debug.ini` sample file
