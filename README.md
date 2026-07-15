@@ -6,7 +6,7 @@ Repository with information related to the **MICo engine**, used in [Valkyria](h
 
 ## Things done
 
-- [ ] Container files
+- [X] Container files
 - [X] Debug mode
 - [X] Differences between versions
 - [ ] Image files
