@@ -24,3 +24,7 @@ Repository with information related to the **MICo engine**, used in [Valkyria](h
   - 010 Editor .csv file of bookmarks of system.dat file
   - IDA decompilation of the game's executable
   - `MICo_Debug.ini` sample file
+
+## Extra notes
+
+If for some reason some functions from IDA's decompilation don't seem to make too much sense in C, take a good look at this article of theirs: [https://hex-rays.com/blog/igors-tip-of-the-week-67-decompiler-helpers](https://hex-rays.com/blog/igors-tip-of-the-week-67-decompiler-helpers)
