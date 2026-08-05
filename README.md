@@ -17,7 +17,7 @@ Repository with information related to the **MICo engine**, used in [Valkyria](h
 
 ## Files included
 
-- [Netoraren'ai ~Ai Suru Kanojo ga Musunda Midara na Keiyaku~](https://vndb.org/v19908)
+- [Netoraren'ai -Ai Suru Kanojo ga Musunda Midara na Keiyaku-](https://vndb.org/v19908)
   - IDA decompilation of the game's executable
 
 - [Nihiki no Marionette -Kouki Naru Shimai no Songen Houkai-](https://vndb.org/v55358)
