@@ -17,6 +17,9 @@ Repository with information related to the **MICo engine**, used in [Valkyria](h
 
 ## Files included
 
+- [Bitch Switch ☆ Revolution -Houkago Gyaru Bitch Sakusei Playlist-](https://vndb.org/v59025)
+  - IDA decompilation of the game's executable
+
 - [Netoraren'ai -Ai Suru Kanojo ga Musunda Midara na Keiyaku-](https://vndb.org/v19908)
   - IDA decompilation of the game's executable
 
