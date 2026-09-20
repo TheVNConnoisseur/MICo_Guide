@@ -1,9 +1,9 @@
 Name,Value,Start,Size,Type,Color
-Game Identifier[4],,0h,4h,uchar,Fg: Bg:0x00BFBF
+Game Identifier,06/13/2025 05:05:31,0h,4h,time_t,Fg: Bg:0x00BFBF
 Game system mode,2,4h,4h,uint,Fg: Bg:0x00FFFF
 Exclusive fullscreen mode,0,8h,1h,uchar,Fg: Bg:0x66B3FF
-Game Locale is English,0,9h,1h,uchar,Fg: Bg:0xBF0060
-Game title[260],二美姫のマリオネット〜高貴なる姉妹の尊厳崩壊〜,Ah,104h,char,Fg: Bg:0x3333FF
+Game Locale is English,1,9h,1h,uchar,Fg: Bg:0xBF0060
+Game title[260],二美姫のマリオネット〜高貴なる姉妹の尊厳崩壊〜(DL版),Ah,104h,char,Fg: Bg:0x3333FF
 DAT_Key[260],二美姫のマリオネット〜高貴なる姉妹の尊厳崩壊〜,10Eh,104h,char,Fg: Bg:0x7F7F00
 Window width,1280,212h,2h,ushort,Fg: Bg:0x00BFBF
 Window height,720,214h,2h,ushort,Fg: Bg:0xBF6000
@@ -127,7 +127,7 @@ AudioSlots_Voice,1,208Ch,2h,ushort,Fg: Bg:0x3333FF
 AudioSlots_Unknown,50,208Eh,1h,uchar,Fg: Bg:0x00FFFF
 SDT_Key_ShufflerByte,0,208Fh,1h,uchar,Fg: Bg:0xBF0060
 SDT_Key[260],�ﾄﾒsA,2090h,104h,char,Fg: Bg:0x7F7F00
-DialogBox_Message_BackgroundFill_Enabled,1,2194h,1h,char,Fg: Bg:0xBF00BF
+DialogBox_Message_BackgroundFill_Enabled,0,2194h,1h,char,Fg: Bg:0xBF00BF
 Byte to skip,0,2195h,1h,uchar,Fg: Bg:0x003F3F
 DialogBox_Message_Background_XOrigin,128,2196h,2h,short,Fg: Bg:0x3399FF
 DialogBox_Message_Background_YOrigin,546,2198h,2h,short,Fg: Bg:0x33FF99
@@ -139,7 +139,7 @@ DialogBox_Message_BackgroundFill_XOrigin,128,21A2h,2h,short,Fg: Bg:0x0060BF
 DialogBox_Message_BackgroundFill_YOrigin,556,21A4h,2h,short,Fg: Bg:0x0000FF
 DialogBox_Message_BackgroundFill_Width,0,21A6h,2h,ushort,Fg: Bg:0xFFFF00
 DialogBox_Message_BackgroundFill_Height,0,21A8h,2h,ushort,Fg: Bg:0x66FFFF
-DialogBox_Message_Background_ImageFile[260],null.mg2,21AAh,104h,char,Fg: Bg:0x99FF33
+DialogBox_Message_Background_ImageFile[260],メッセージウインドウ01.mg2,21AAh,104h,char,Fg: Bg:0x99FF33
 DialogBox_Character_Text_FontID,0,22AEh,2h,short,Fg: Bg:0x3399FF
 DialogBox_Character_BackgroundFill_Enabled,0,22B0h,1h,char,Fg: Bg:0x00BF00
 Byte to skip,0,22B1h,1h,char,Fg: Bg:0xFFFFFF
@@ -156,7 +156,8 @@ DialogBox_Character_BackgroundFill_Height,0,22C4h,2h,ushort,Fg: Bg:0x00003F
 DialogBox_Character_Unknown1,600,22C6h,2h,ushort,Fg: Bg:0x3F3F00
 DialogBox_Character_Unknown2,0,22C8h,2h,ushort,Fg: Bg:0x0000FF
 DialogBox_Character_Unknown3,0,22CAh,1h,uchar,Fg: Bg:0x3399FF
-DialogBox_Character_Background_ImageFile[261],メッセージウインドウ01.mg2,22CBh,105h,char,Fg: Bg:0x00FFFF
+DialogBox_Character_Background_ImageFile[260],null.mg2,22CBh,104h,char,Fg: Bg:0x00FFFF
+Byte to skip,0,23CFh,1h,char,Fg: Bg:0x66B3FF
 DialogBox_Unused1,0,23D0h,4h,int,Fg: Bg:0x00BF00
 DialogBox_Unused2,0,23D4h,4h,int,Fg: Bg:0xFF9933
 Bytes to skip[8],,23D8h,8h,char,Fg: Bg:0xFFFF99
@@ -167,6 +168,7 @@ DialogBox_Unused6,0,23ECh,4h,int,Fg: Bg:0x33FFFF
 Bytes to skip[40],,23F0h,28h,char,Fg: Bg:0xB3FF66
 DialogBox_Unused7,0,2418h,4h,int,Fg: Bg:0x0000BF
 DialogBox_Unused8,0,241Ch,4h,int,Fg: Bg:0x99CCFF
+Bytes to skip[8],,2420h,8h,char,Fg: Bg:0x3333FF
 DialogBox_Unused9,0,2428h,4h,int,Fg: Bg:0xFFFF66
 DialogBox_Unused10,0,242Ch,4h,int,Fg: Bg:0x007F7F
 DialogBox_Unused11,0,2430h,4h,int,Fg: Bg:0x00BF00
