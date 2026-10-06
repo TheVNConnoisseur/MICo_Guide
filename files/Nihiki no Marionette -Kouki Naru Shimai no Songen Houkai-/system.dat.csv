@@ -140,7 +140,7 @@ DialogBox_Message_BackgroundFill_YOrigin,556,21A4h,2h,short,Fg: Bg:0x0000FF
 DialogBox_Message_BackgroundFill_Width,0,21A6h,2h,ushort,Fg: Bg:0xFFFF00
 DialogBox_Message_BackgroundFill_Height,0,21A8h,2h,ushort,Fg: Bg:0x66FFFF
 DialogBox_Message_Background_ImageFile[260],メッセージウインドウ01.mg2,21AAh,104h,char,Fg: Bg:0x99FF33
-DialogBox_Character_Text_FontID,0,22AEh,2h,short,Fg: Bg:0x3399FF
+DialogBox_Character_Text_FontID,0,22AEh,2h,ushort,Fg: Bg:0x3399FF
 DialogBox_Character_BackgroundFill_Enabled,0,22B0h,1h,char,Fg: Bg:0x00BF00
 Byte to skip,0,22B1h,1h,char,Fg: Bg:0xFFFFFF
 DialogBox_Character_Background_XOrigin,128,22B2h,2h,short,Fg: Bg:0x9999FF
@@ -181,21 +181,22 @@ ChoiceBox_Text_Color[3],,5988h,3h,uchar,Fg: Bg:0xFF99FF
 ChoiceBox_BackgroundFill_Enable,0,598Bh,1h,char,Fg: Bg:0xFFFF33
 ChoiceBox_Text_XOrigin,135,598Ch,2h,short,Fg: Bg:0x0000FF
 ChoiceBox_Text_YOrigin,11,598Eh,2h,short,Fg: Bg:0x00FFFF
-ChoiceBox_Text_Width,600,5990h,2h,short,Fg: Bg:0x66FF66
-ChoiceBox_Text_Height,47,5992h,2h,short,Fg: Bg:0xBF0060
-ChoiceBox_Unknown1,0,5994h,2h,short,Fg: Bg:0xFF9999
-ChoiceBox_Unknown2,0,5996h,2h,short,Fg: Bg:0x00407F
-ChoiceBox_Unknown3,660,5998h,2h,short,Fg: Bg:0xFF33FF
-ChoiceBox_BackgroundFill_Height,47,599Ah,2h,short,Fg: Bg:0x007F7F
-ChoiceBox_BackgroundFill_Width,660,599Ch,2h,short,Fg: Bg:0x007F00
-ChoiceBox_Unknown6,47,599Eh,2h,short,Fg: Bg:0xFF00FF
+ChoiceBox_Text_Width,600,5990h,2h,ushort,Fg: Bg:0x66FF66
+ChoiceBox_Text_Height,47,5992h,2h,ushort,Fg: Bg:0xBF0060
+ChoiceBox_Unknown1,0,5994h,2h,ushort,Fg: Bg:0xFF9999
+ChoiceBox_Unknown2,0,5996h,2h,ushort,Fg: Bg:0x00407F
+ChoiceBox_Unknown3,660,5998h,2h,ushort,Fg: Bg:0xFF33FF
+ChoiceBox_BackgroundFill_Height,47,599Ah,2h,ushort,Fg: Bg:0x007F7F
+ChoiceBox_BackgroundFill_Width,660,599Ch,2h,ushort,Fg: Bg:0x007F00
+ChoiceBox_Unknown4,47,599Eh,2h,short,Fg: Bg:0xFF00FF
 ChoiceBox_Image_YMarginForNextChoiceBox,65,59A0h,2h,short,Fg: Bg:0x0060BF
 ChoiceBox_Image_XMargin,310,59A2h,2h,short,Fg: Bg:0x99FFFF
-ChoiceBox_Unknown9,302,59A4h,2h,short,Fg: Bg:0x00BF00
+ChoiceBox_Unknown5,302,59A4h,2h,short,Fg: Bg:0x00BF00
 ChoiceBox_Image_NotChosen[260],選択肢枠(基本).mg2,59A6h,104h,char,Fg: Bg:0xFF3333
 ChoiceBox_Image_NotChosen_MouseHover[260],選択肢枠(ロール).mg2,5AAAh,104h,char,Fg: Bg:0x00FF80
 ChoiceBox_Image_AlreadyChosen[260],選択肢枠(既読).mg2,5BAEh,104h,char,Fg: Bg:0x0000BF
-ChoiceBox_Image_AlreadyChosen_MouseHover[262],選択肢枠(ロール).mg2,5CB2h,106h,char,Fg: Bg:0x0080FF
+ChoiceBox_Image_AlreadyChosen_MouseHover[260],選択肢枠(ロール).mg2,5CB2h,104h,char,Fg: Bg:0x0080FF
+Bytes to skip[2],,5DB6h,2h,char,Fg: Bg:0x407F00
 ChoiceBox_Unused1,0,5DB8h,4h,int,Fg: Bg:0xBF0000
 ChoiceBox_Unused2,0,5DBCh,4h,int,Fg: Bg:0x00BF60
 ChoiceBox_Unused3,0,5DC0h,4h,int,Fg: Bg:0x7F0000
