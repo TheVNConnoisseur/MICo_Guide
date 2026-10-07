@@ -11,15 +11,14 @@ Repository with information related to the **MICo engine**, used in [Valkyria](h
 - [X] Debug mode
 - [X] Differences between versions
 - [ ] Image files
-  - [ ] Standard files
-  - [ ] Mask files
 - [X] Initialization files
 - [ ] Script files
 
 ## Files included
 
 - Audio files
-  - IDA decompilation of Ayame.dll
+  - Source code for Ayame version 6.0.0
+  - Source code for Selene (not used in any game but included for preservation purposes)
 
 - [Bitch Switch ☆ Revolution -Houkago Gyaru Bitch Sakusei Playlist-](https://vndb.org/v59025)
   - IDA decompilation of the game's executable
