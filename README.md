@@ -20,7 +20,7 @@ Repository with information related to the **MICo engine**, used in [Valkyria](h
 
 - Audio files
   - IDA decompilation of Ayame.dll
-  - 
+
 - [Bitch Switch ☆ Revolution -Houkago Gyaru Bitch Sakusei Playlist-](https://vndb.org/v59025)
   - IDA decompilation of the game's executable
 
