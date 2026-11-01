@@ -5,14 +5,35 @@
 Repository with information related to the **MICo engine**, used in [Valkyria](https://vndb.org/p765) visual novels. Everything is stored inside the [wiki](https://github.com/TheVNConnoisseur/MICo_Guide/wiki) of this repository, and any file generated from the investigation done, will be included inside the main repository instead.
 
 ## Things done
+### Version 1
+
+- [X] Audio files
+- [X] Container files
+- [X] Debug mode
+- [X] Image files
+- [X] Initialization files
+
+### Version 2
 
 - [X] Audio files
 - [ ] Container files
+  - [X] Non-encrypted
+  - [ ] Encrypted
+    - [X] Version 1
+    - [ ] Version 2
 - [X] Debug mode
-- [X] Differences between versions
 - [ ] Image files
+  - [ ] AM2
+  - [ ] MAL
+  - [ ] MG2
+    - [ ] Non-encrypted
+    - [ ] Encrypted
+      - [ ] Version 1
+      - [ ] Version 2
+      - [ ] Version 3
+      - [ ] Version 4
+      - [ ] Version 5
 - [X] Initialization files
-- [ ] Script files
 
 ## Files included
 
